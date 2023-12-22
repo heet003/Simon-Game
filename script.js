@@ -68,7 +68,7 @@ function gameOver() {
     userPattern = [];
     randPattern = [];
     started = false;
-    $("h1").text("Game Over, Press Any Key To Restart.");
+    $("#level-title").text("Game Over, Press Any Key To Restart.");
     playSound("wrong");
     $("body").toggleClass("game-over");
     setTimeout(() => {

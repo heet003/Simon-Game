@@ -3,16 +3,23 @@ body {
   background-color: #011F3F;
 }
 
+#title {
+  font-size: 2rem;
+  margin: 2% 4%;
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin: 5%;
+  font-size: 2rem;
+  margin: 4%;
   color: #FEF2BF;
 }
 
 .container {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: auto;
 
 }
@@ -20,8 +27,8 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   border: 10px solid black;
   border-radius: 20%;
 }
